@@ -1,9 +1,11 @@
 image:
-  file: .gitpod.Dockerfile
+  name: gitpod/workspace-full:latest
 
 tasks:
-  - name: Install dependencies
+  - name: Setup Environment
     init: |
+      # Install Python dependencies
+      pip install --upgrade pip
       pip install -r requirements.txt
 
 ports:
