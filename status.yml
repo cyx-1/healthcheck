@@ -1,0 +1,35 @@
+activity_last_check_timestamp: '2024-09-11 22:39:18'
+application_version: 1.0.2
+computer_activity_history:
+- duration: 219.97 minutes
+  end: '2024-09-11 21:24:18'
+  start: '2024-09-11 17:44:20'
+- duration: TBD - activity started
+  last_mouse_location: 1645,1310
+  start: '2024-09-11 22:29:18'
+process_activity_history:
+  Code.exe:
+  - duration: 5.01 minutes
+    end: '2024-09-11 01:59:19'
+    last_cpu_busy_timestamp: '2024-09-11 01:54:19'
+    start: '2024-09-11 01:54:19'
+  - duration: 5.02 minutes
+    end: '2024-09-11 07:44:18'
+    last_cpu_busy_timestamp: '2024-09-11 07:39:18'
+    start: '2024-09-11 07:39:18'
+processes:
+  392:
+    argument: C:\Program Files\Microsoft VS Code\Code.exe --type=renderer --user-data-dir=C:\Users\yexin\AppData\Roaming\Code
+      --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file
+      --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file
+      --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file
+      --app-user-model-id=Microsoft.VisualStudioCode --app-path=C:\Program Files\Microsoft
+      VS Code\resources\app --enable-sandbox --enable-blink-features=HighlightAPI
+      --disable-blink-features=FontMatchingCTMigration, --lang=en-US --device-scale-factor=1.5
+      --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12
+      --time-ticks-at-unix-epoch=-1726090793577687 --launch-time-ticks=11902588296
+      --field-trial-handle=4316,i,11873243780372625328,14628972081281095770,262144
+      --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand
+      --variations-seed-version --mojo-platform-channel-handle=4304 --vscode-window-config=vscode:f696607e-d83d-4736-b269-149502833906
+      /prefetch:1
+    name: Code.exe

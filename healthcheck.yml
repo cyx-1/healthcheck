@@ -1,0 +1,16 @@
+ignore_list:
+  - ctfmon.exe
+  - healthcheck
+  - svchost
+  - mypy
+  - csrss.exe
+  - OneDrive.exe
+  - System Idle Process
+  - MemCompression
+  - dwm.exe
+  - explorer.exe
+  - System
+  - WindowsTerminal.exe
+  - MsMpEng.exe
+  - Ribbons.scr
+  - sihost.exe
