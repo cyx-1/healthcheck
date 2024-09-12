@@ -1,5 +1,4 @@
-image:
-  name: gitpod/workspace-full:latest
+image: gitpod/workspace-full
 
 tasks:
   - name: Setup Environment
